@@ -1,0 +1,6 @@
+services:
+  videogamecharacterapi:
+    image: ${DOCKER_REGISTRY-}videogamecharacterapi
+    build:
+      context: .
+      dockerfile: VideoGameCharacterApi/Dockerfile
